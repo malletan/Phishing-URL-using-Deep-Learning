@@ -1,0 +1,30 @@
+HISTORY
+Accuracy for history: 0.8016314506530762
+Accuracy for history test: 0.8017473220825195
+Accuracy for kaggle test: 0.7694703340530396
+Accuracy for combined: 0.7753391265869141
+Accuracy for combined test: 0.7898754477500916
+COMBINED
+Accuracy for history: 0.74800705909729
+Accuracy for history test: 0.8259408473968506
+Accuracy for kaggle test: 0.909994900226593
+Accuracy for combined: 0.9225180745124817
+Accuracy for combined test: 0.8951807022094727
+SMALL
+Accuracy for history: 0.736095666885376
+Accuracy for history test: 0.6962365508079529
+Accuracy for kaggle test: 0.9466423988342285
+Accuracy for combined: 0.9162300825119019
+Accuracy for combined test: 0.8143832683563232
+
+
+Ashish_Arya
+Accuracy for history:  0.5057533979415894
+Accuracy for kaggle:  0.9958038926124573
+
+Best-model
+Accuracy for history: 0.7213570475578308
+Accuracy for history test: 0.8736559152603149
+Accuracy for kaggle test: 0.8820545673370361
+Accuracy for combined: 0.9153231382369995
+Accuracy for combined test: 0.924096405506134

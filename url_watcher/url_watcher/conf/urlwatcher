@@ -1,0 +1,14 @@
+server {
+    listen 80;
+    listen 443 ssl;
+    server_name urlwatcher.mooo.com www.urlwatcher.mooo.com 90.109.5.38;
+    ssl_certificate /etc/letsencrypt/live/urlwatcher.mooo.com/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/urlwatcher.mooo.com/privkey.pem; # managed by Certbot
+ 
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/home/wawann/PycharmProjects/url_watcher/urlwatcher.sock;
+    }
+
+}

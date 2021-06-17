@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance of urlwatcher project for IF27
+After=network.target
+
+[Service]
+User=wawann
+Group=www-data
+WorkingDirectory=/home/wawann/PycharmProjects/url_watcher
+Environment="PATH=/home/wawann/PycharmProjects/url_watcher/venv/bin"
+ExecStart=/home/wawann/PycharmProjects/url_watcher/venv/bin/gunicorn --bind unix:urlwatcher.sock -m 007 wsgi:app
+
+[Install]
+WantedBy=multi-user.target
